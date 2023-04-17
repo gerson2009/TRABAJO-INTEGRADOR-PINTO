@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinto!</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="logo">
+            <h1 class="titulo">Pintó!</h1>
+        </div>
+        <hr>
+
+        <div class="barra">
+            <nav class="nav">
+                <ul class="lista">
+                        <li><a href="#header" class="item">Inicio</a></li>
+                        <li><a href="#main" class="item">Menu</a></li>
+                        <li><a href="#about" class="item">Nosotros</a></li>
+                        <li><a href="#contact" class="item">Contacto</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+    </header>
+    <!-- menu -->
+    <main class="menu1" id="main">
+        <h2>Menu</h2>
+        <section class="carta flex texcenter">
+            <div class="foods">
+                <h3>Tortas</h3>
+                <img src="/TPI pinto/Media/IMG/TORTAS/torta.jpg" alt="" class="img">
+                <p>Te brindamos variedad en tortas clásicas pero con un delicioso sabor.
+                    Redvelvet, Pie limón, Brownie, Selva negra.</p>
+            </div>
+            <div class="foods">
+                <h3>Tartas</h3>
+                <img src="/TPI pinto/Media/IMG/TARTAS/tarta.jpeg" alt="" class="img">
+                <p>Te envito a degustar nuestras sabrosas tartas:
+                    Ricota, Verdura, Pollo</p>
+            </div>
+            <div class="foods">
+                <h3>Bebidas</h3>
+                <img src="/TPI pinto/Media/IMG/BEBIDAS/bebidas.jpg" alt="" class="img">
+                <p>Tenemos los mejores licuados y jugos naturales.
+                    Además cerveza, refresco, agua, soda.</p>
+            </div>
+            <div class="foods">
+                <h3>Medialunas</h3>
+                <img src="/TPI pinto/Media/IMG/MEDIALUNA/medialunas.jpg" alt="" class="img">
+                <p>Tenemos las mejores medialunas de Buenos Aires y las más ricas facturas y gran variedad.</p>
+            </div>
+            <div class="foods">
+                <h3>Meriendas</h3>
+                <img src="/TPI pinto/Media/IMG/MERIENDAS/merienda.jpg" alt="" class="img">
+                <p>En cualquier momento puedes disfrutar de nuestra rica pasteleria: Galletas de casa, Sándwich de miga y Tostados.</p>
+            </div>
+            <div class="foods">
+                <h3>Pizzas</h3>
+                <img src="/TPI pinto/Media/IMG/PIZZA/pizza.jpeg" alt="" class="img">
+                <p>Te invitamos a comer de nuestra pizza tradicional:
+                    Muzzarella y aceitunas, Muzarella y jamón, Jamon y morrón</p>
+            </div>
+            <div class="scrol"></div>
+
+        </section>
+
+    </main>
+    <hr>
+    <!-- about us -->
+    <section id="about">
+        <h2>Nosotros</h2>
+        <hr>
+        <div class="nosotros texcenter">
+            <p>Somos un emprendimiento de comida rapida  casera, desde el 2023.</p>
+            <br>
+            <p>Nuestra mision es satisfacer el paladar de nuestros clientes con un rico sabor, entregas a tiempo y un grato momento.</p>
+            <br>
+            <p>Nuestra vision es expendirnos para que nuestra comida llegue a mas hogares, más amigos.</p>
+            <br>
+            <p>Take Away</p>
+            <p>Telf: 11-27965768</p>
+            <p>Direccion: Antonio Malaver, Munro.</p>
+            <br>
+            <br>
+            <p>Pintó &copy;</p>
+        </div>
+    </section>
+    <hr>
+
+    <!-- footer -->
+    <footer class="footer" id="contact">
+        <h2>Contacto</h2>
+        <hr>
+        <form action="https://formsubmit.co/gersongriar@gmail.com" method="POST" class="form1" id="formulario">
+            <div class="form">
+                <div class="interno">
+                    <label for="name" class="label texcenter">Nombre:</label>
+                    <input type="text" name="nombre" id="name" class="input" required="">
+                    
+                
+                    <label for="email" class="label texcenter">Correo:</label>
+                    <input type="email" name="email" id="email" class="input" required="">
+                    
+                    <label for="phone" class="label texcenter">Telefono:</label>
+                    <input type="tel" name="phone" id="phone" class="input" required="">
+                    
+                
+                    <label for="message" class="label texcenter">Pedido:</label>
+                    <textarea name="message" id="message" cols="30" rows="5" required=""></textarea>
+                
+                    <input class="btn texcenter" type="submit" value="Enviar">
+                </div>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_captcha" value="false">
+            
+            </div>
+
+        </form>
+        <hr>
+        <p class="final texcenter">Pintó &copy; Todos los derechos reservados - 2023.</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>

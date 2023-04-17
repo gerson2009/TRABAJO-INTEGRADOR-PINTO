@@ -1,0 +1,213 @@
+/* toda la pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f1da0a;
+}
+body {
+    background-color: #17181b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+html {
+    scroll-behavior: smooth;
+}
+.titulo {
+    color: #f1da0a;
+}
+
+h2 {
+    border: 20px;
+    padding: 20px;
+    text-align: center;
+}
+h3 {
+    padding: 10px;
+}
+
+
+#header {
+    width: 100%;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    padding: 10px 0 8px 0;
+    font-size: 30px;
+}
+
+.nav {
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: none;
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    padding: 10px;
+    color:#f1da0a;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+}
+
+.item:hover {
+    color: #fd0000;
+}
+
+.nav.abajo {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #17181b;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+/* menu */
+
+.texcenter {
+    text-align: center;
+}
+
+.carta {
+    margin: auto;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.foods {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 3px #a1941ba6;
+    width: 27%;
+    height: auto;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}   
+
+.foods {
+    background-color: #1c1e24;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* imagenes */
+
+.img {
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #1f193ddc;
+    margin: 10px 0 10px 0;
+}
+
+/* nostoros */
+
+.nosotros {
+    margin: 30px 0;
+    padding: 10px;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    border: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interno {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input, textarea {
+    background: #c7c6c621;
+    border-radius: 5px;
+    margin: 10px;
+    width: 100%;
+}
+
+.input {
+    height: 20px;
+    padding: 15px;
+}
+
+
+.btn {
+    width: 25%;
+    margin: 15px auto;
+    color: #17181b;
+    padding: 7px;
+    background-color: #e9e514;
+    cursor: pointer;
+    border-radius: 10%;
+    
+}
+
+.btn:hover {
+    background-color: #90a006;
+}
+
+.final {
+    margin: 10px;
+}
+
+
+@media (max-width: 1070px){
+    .foods.img{
+    width: 40%;
+    }
+}
+@media (max-width: 600px){
+    .foods{
+    width: 80%;
+    }
+}
+@media (max-width: 600px){
+    .body {
+    width: 100%;
+    }
+}
+@media (max-width: 500px){
+    .interno {
+        width: 100%;
+    }
+
+}
